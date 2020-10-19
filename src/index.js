@@ -1,17 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import App from "./App";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById('root'));
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+
+
+
+
+// const firebase = require("firebase");
+// // Required for side-effects
+// require("firebase/firestore");
+
+// // Initialize Cloud Firestore through Firebase
+// firebase.initializeApp({
+//   apiKey: "AIzaSyBEKxpCS4tm2qYtX3mMomg78EusyQFDDuQ",
+//   authDomain: "todo-list-50837.firebaseapp.com",
+//   projectId: "todo-list-50837"
+// });
+// var db = firebase.firestore();
+// var userRef = db.collection("users");
+
+//pass userRef through the components
+
+// ReactDOM.render(<App />, document.getElementById('root'));
