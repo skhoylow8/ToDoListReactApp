@@ -5,9 +5,6 @@ import App from "./App";
 ReactDOM.render(<App />, document.getElementById('root'));
 
 
-
-
-
 // const firebase = require("firebase");
 // // Required for side-effects
 // require("firebase/firestore");
